@@ -19,3 +19,8 @@ The configurations for all experiments are stored in the "syn_data" folder, cate
 
 The folder "cp_solver" contains the solver and the JSP benchmarks used as starting problems, which were then modified to suit our needs.
 Run the "ortool_solver.py" file.
+
+
+<img src="images/q1_results.png" alt="Alt Text" width="780">
+
+<img src="images/q3_results.png" alt="Alt Text" width="780">
