@@ -23,4 +23,7 @@ Run the "ortool_solver.py" file.
 
 <img src="images/q1_results.png" alt="Alt Text" width="780">
 
+Comparison of all $M_C$ solutions returned by the CP solver with $q_C$, along with their corresponding $M_{\alpha}$ values and the \emph{Average} computed over 1,000 simulations, for the synthetic \act{medium} problem without calendars for each level of uncertainty ($0.1, 0.5, 1.0$).
+
 <img src="images/q3_results.png" alt="Alt Text" width="780">
+Comparison of all $M_U$ solutions returned by the CP solver with $q_U$, along with their corresponding $M_{\alpha}$ values and the \emph{Average} computed over 1,000 simulations, for the synthetic \act{medium} problem without calendars for each level of uncertainty ($0.1, 0.5, 1.0$).
