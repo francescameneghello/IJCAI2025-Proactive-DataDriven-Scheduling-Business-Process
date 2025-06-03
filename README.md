@@ -46,9 +46,16 @@ All the benchmarks are retrieved from the work[Reijnen et al., 2023], which prov
 |             |          | 1.0        | 0.668 | 10921        | 12271.145 | 11812.203   | 356.501        | 1.12 | 44085             | 51451.363 | 46689.336   | 2154.574       | 1.18 |
 
 
-Figure below shows the deterministic solutions obtained using the CP solver with $q_C$, namely $M_C$, and the corresponding performance over $1000$ simulations, expressed by $M_\alpha$ and the average Makespan. In contrast, Figure~\ref{fig:q1_results} presents the same results but computed with $q_U$ on the same benchmark (\act{medium}($20 \times 20$) without resource calendars). From Figures~\ref{fig:q3_results} and \ref{fig:q1_results}, it is evident that $q_U$ ensures a lower bound, which is not always guaranteed with $q_C$. However, the latter is capable of producing a probabilistic Makespan that is closer to the deterministic one and achieves a smaller probabilistic Makespan with fewer solutions, given the same time limit for the CP solver to retrieve the solutions.
+Figure below shows the deterministic solutions obtained using the CP solver with $q_C$, namely $M_C$, and the corresponding performance over $1000$ simulations, expressed by $M_\alpha$ and the average Makespan. In contrast, the first Figure presents the same results but computed with $q_U$ on the same benchmark (\act{medium}($20 \times 20$) without resource calendars). From Figures, it is evident that $q_U$ ensures a lower bound, which is not always guaranteed with $q_C$. However, the latter is capable of producing a probabilistic Makespan that is closer to the deterministic one and achieves a smaller probabilistic Makespan with fewer solutions, given the same time limit for the CP solver to retrieve the solutions.
 
-<img src="images/q1_results.png" alt="Alt Text" width="780">
+![Comparison of all $M_C$ solutions returned by the CP solver with $q_C$, along with their corresponding $M_{\alpha}$ values and the *Average* computed over 1,000 simulations, for the synthetic **medium** problem without calendars for each level of uncertainty ($0.1, 0.5, 1.0$).](images/q3_results.png)
+
+*Figure: Comparison of all $M_C$ solutions returned by the CP solver with $q_C$, along with their corresponding $M_{\alpha}$ values and the *Average* computed over 1,000 simulations, for the synthetic **medium** problem without calendars for each level of uncertainty ($0.1, 0.5, 1.0$).*
+
+![Comparison of all $M_U$ solutions returned by the CP solver with $q_U$, along with their corresponding $M_{\alpha}$ values and the *Average* computed over 1,000 simulations, for the synthetic **medium** problem without calendars for each level of uncertainty ($0.1, 0.5, 1.0$).](images/q1_results.png)
+
+*Figure: Comparison of all $M_U$ solutions returned by the CP solver with $q_U$, along with their corresponding $M_{\alpha}$ values and the *Average* computed over 1,000 simulations, for the synthetic **medium** problem without calendars for each level of uncertainty ($0.1, 0.5, 1.0$).*
+
 
 ### Percentage of Improvement
 
