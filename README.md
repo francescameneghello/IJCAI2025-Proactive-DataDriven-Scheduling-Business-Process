@@ -50,11 +50,11 @@ Figure below shows the deterministic solutions obtained using the CP solver with
 
 ![Comparison of all $M_C$ solutions returned by the CP solver with $q_C$, along with their corresponding $M_{\alpha}$ values and the *Average* computed over 1,000 simulations, for the synthetic **medium** problem without calendars for each level of uncertainty ($0.1, 0.5, 1.0$).](images/q3_results.png)
 
-*Figure: Comparison of all $M_C$ solutions returned by the CP solver with $q_C$, along with their corresponding $M_{\alpha}$ values and the *Average* computed over 1,000 simulations, for the synthetic **medium** problem without calendars for each level of uncertainty ($0.1, 0.5, 1.0$).*
+Figure: Comparison of all $M_C$ solutions returned by the CP solver with $q_C$, along with their corresponding $M_{\alpha}$ values and the *Average* computed over 1,000 simulations, for the synthetic **medium** problem without calendars for each level of uncertainty ($0.1, 0.5, 1.0$).
 
 ![Comparison of all $M_U$ solutions returned by the CP solver with $q_U$, along with their corresponding $M_{\alpha}$ values and the *Average* computed over 1,000 simulations, for the synthetic **medium** problem without calendars for each level of uncertainty ($0.1, 0.5, 1.0$).](images/q1_results.png)
 
-*Figure: Comparison of all $M_U$ solutions returned by the CP solver with $q_U$, along with their corresponding $M_{\alpha}$ values and the *Average* computed over 1,000 simulations, for the synthetic **medium** problem without calendars for each level of uncertainty ($0.1, 0.5, 1.0$).*
+Figure: Comparison of all $M_U$ solutions returned by the CP solver with $q_U$, along with their corresponding $M_{\alpha}$ values and the *Average* computed over 1,000 simulations, for the synthetic **medium** problem without calendars for each level of uncertainty ($0.1, 0.5, 1.0$).
 
 
 ### Percentage of Improvement
